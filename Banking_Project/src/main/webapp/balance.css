@@ -1,0 +1,32 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 183, 107);
+}
+.panel
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cyan;
+}
+/* -------------------------------------------- */
+.head1
+{
+    width: 800px;height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.248);
+    text-align: center;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    background-color: rgba(0, 0, 0, 0.33);
+    color: white;
+    
+}
+.text1{font-size: 50px;}
+.text2{font-size: 50px;color: rgb(128, 255, 0);}
+.result{font-size: 200px;}
+.head1 button
+{
+	 padding: 20px 40px;font-size: 20px;border-radius: 30px;background-color: rgb(0, 0, 0);color: white;
+}

@@ -1,0 +1,37 @@
+@charset "ISO-8859-1";
+body
+{
+	background-color: rgba(0, 0, 0, 0.673);
+}
+#text1
+{
+	font-size: 40px;
+	color: white;
+}
+#b1
+{
+	position: absolute;
+	right:20px;
+	top: 20px;
+	padding: 10px 40px;
+	font-size: 20px;
+	background-color: black;color: white;
+	box-shadow: white 1px 1px;
+}
+#one
+{
+    
+    height: 50px;width: 400px;border: 1px solid rgba(255, 255, 255, 0.715);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    left: 36vw;
+}
+
+#sp1
+{
+	position: absolute;
+	font-size: 10px;
+	text-align: right;	
+}

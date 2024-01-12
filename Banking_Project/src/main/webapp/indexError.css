@@ -1,0 +1,125 @@
+body
+{
+    background-image: url(nature.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    
+    
+}
+/* ------------------------------------------------------ */
+.heading
+{
+    
+    background-color: rgba(114, 180, 250, 0.438);
+    padding-block: 10px;
+    position:fixed;
+    top: 0px;right: 0px;left: 0px; 
+    z-index: 1;
+    
+}
+.heading div
+{
+    display: inline;
+    border:  solid rgba(0, 0, 0, 0);
+    color: white;
+}
+.frame
+{
+    height: 400px;
+    width: 500px;
+    background-color: rgba(255, 73, 73, 0.314);
+    position: absolute;
+    border-radius: 50px;
+    left: 72vh;
+    top: 150px;
+}
+/* ------------------------------------------------------ */
+#company,#place,#address,#AboutUs
+{
+    margin-left: 200px;
+    padding-block: 10px;
+    padding-inline: 5px;
+    
+}
+#company:hover,#place:hover,#address:hover,#AboutUs:hover
+{
+    background-color: rgb(108, 168, 233);
+    
+    cursor: pointer;
+}
+/* ------------------------------------------------------ */
+
+.login
+{
+    text-align: center;
+    font-family:serif;
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    
+}
+.position 
+{
+    
+    position: relative;
+    left: 160px;
+}
+
+.text,.text::selection
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(240, 248, 255, 0);
+    padding-top: 10px;
+    margin-top: 20px;
+    outline-style: none;
+
+}
+
+#name,#password
+{
+    padding-top: 30px;
+}
+/* ------------------------------------------------------ */
+.sign div
+{
+    margin-top: 20px;
+    margin-left: 175px;
+}
+/* ------------------------------------------------------ */
+.resError
+{
+	padding-left: 128px;
+	color: red;
+	font-weight: 1000;
+}
+/* ------------------------------------------------------ */
+.confirmBox
+{
+    padding-left:160px ;
+}
+/* ------------------------------------------------------ */
+#submit
+{
+    padding-top: 17px;
+    position: relative;
+    left: 210px;
+}
+.loginbutton
+{
+    border-radius: 25px;
+    padding-inline: 60px;
+    padding-block: 10px;
+    background-color: rgba(29, 255, 232, 0.459);
+    position: relative;
+    right: 50px;
+    border: none;
+}
+hr
+{
+    z-index: 0;
+}
+
+

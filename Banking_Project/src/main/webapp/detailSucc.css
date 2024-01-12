@@ -1,0 +1,11 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(114, 234, 84);
+}
+.text{text-align: center;margin-top: 30vh;}
+h1{text-shadow: white 2px 2px;}
+button{padding: 20px 40px;font-size: 20px;border-radius: 30px;background-color: rgb(186, 246, 23);}
+a{text-decoration: none;}
+

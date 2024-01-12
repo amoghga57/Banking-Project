@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(84, 234, 182);
+}
+.text{
+    text-align: center;margin-top: 30vh;
+}
+h1{
+    text-shadow: white 2px 2px;
+}
+button{
+    padding: 20px 40px;font-size: 20px;border-radius: 30px;background-color: rgb(246, 213, 23);
+}
+a{
+    text-decoration: none;
+}
+.head1{
+    display: flex;
+    margin-left: 578px;
+    margin-top: 100px;
+}
+#butt{
+    margin-left: 100px;
+    background-color: coral;
+}
+

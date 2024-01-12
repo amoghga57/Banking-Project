@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 183, 107);
+}
+.panel
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cyan;
+}
+/* -------------------------------------------- */
+.head1
+{
+    width: 800px;height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.248);
+    text-align: center;
+    margin-left: 25vw;
+    margin-top: 25vh;
+    background-color: rgba(0, 0, 0, 0.33);
+    color: white;
+}
+.text1{font-size: 50px;}
+.input1 input{height: 30px;width: 300px;font-size: 30px;margin-block: 20px;outline: none;}
+.head1 button {padding: 10px 30px;font-size: 30px;margin-block: 20px;border-radius: 10%;background-color: chartreuse;}
+
